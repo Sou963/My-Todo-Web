@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <div class="card">
+        <h1 class="card-title">To-do-List</h1>
+        <div class="card-body">
+          <form class="to-do">
+            <input
+              type="text"
+              placeholder="Enter a to-do"
+              id="input_todo"
+              required
+            />
+            <button type="submit" id="addbutton" class="but">Submit</button>
+          </form>
+          <!-- massage to the todolist from js -->
+          <p id="massage"></p>
+          <!-- list of all todo -->
+          <ul id="list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script30.js"></script>
+  </body>
+</html>
